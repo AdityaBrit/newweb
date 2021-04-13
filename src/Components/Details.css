@@ -1,0 +1,24 @@
+.social{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0 4px 8px  rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top:50%
+}
+
+.social a i {
+    font-size: 32px;
+}
+
+.social a {
+    margin: 12px 0;
+    transition: 500ms;
+}
+
+.social a:hover {
+    transform: scale(1.2);
+}
+
+
